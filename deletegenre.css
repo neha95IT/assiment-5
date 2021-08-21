@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(aa.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+.container
+    {
+        width: 570px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: black;
+        box-shadow: 0px -1px 20px 0px darkgrey;
+    }
+
+.container h2{
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    padding: 13px 0;
+}
+
+
+    input[type="text"],
+    input[type="number"]
+    {   display: block;
+        background: none;
+        text-align: center;
+        width: 250px;
+        border: 2px solid #884788;
+        margin: 20px auto;
+        padding: 14px 10px;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        
+    
+    }
+    
+    input[type="submit"]
+    {
+        display: block;
+        background: none;
+        text-align: center;
+        width: 120px;
+        border: 2px solid #884788;
+        margin: 20px auto;
+        padding: 14px 10px;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    
+    }
+    input[type="submit"]:hover
+    {
+     background-color: #d18aad; ;   
+    }
+    
+    input[type="text"]:focus, 
+    input[type="number"]:focus{
+        width: 280px;
+        border-color: #d18aad;;
+    }
